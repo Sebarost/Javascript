@@ -1,0 +1,83 @@
+@import 'animate.css';
+
+header{
+    height: max-content;
+    margin-left: 1rem;
+    width: 100%;
+}
+
+body{
+    background-image:url("/img/fondoIndex.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.portada{
+    width: 9rem;
+    justify-content: left;
+}
+
+.buttonCarrito{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.menuNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleHtml{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 6rem;
+    margin-bottom: 5rem;
+    background-image:url("/img/x.png");
+}
+
+.card{
+    margin-top: 2rem;
+    margin: 0.5rem;
+}
+
+.cardProduct{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+/* FOOTER */
+.containerFooter{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.alinear{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alinearRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textFooter{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
